@@ -11,7 +11,7 @@ class PWE():
     PBKDF2_ITERATIONS = 100000
     PBKDF2_HASH = 'sha256'
 
-    def __init__(self, cipher="aes", bits=256, iterations=200, charset=string.ascii_letters+string.digits, prefixed=b"hehsomehoworks", salt=b"_lotfua!", **kwargs):
+    def __init__(self, cipher="aes", bits=256, iterations=20000, charset=string.ascii_letters+string.digits, prefixed=b"hehsomehoworks0912", salt=b"_lotfua!", **kwargs):
         self._bits = bits
         self._cipher = cipher
         self._iterations = iterations
